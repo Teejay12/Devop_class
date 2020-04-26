@@ -113,7 +113,4 @@ resource "aws_instance" "tomcat" {
     Name = "tomcat"
   }
 }
-resource "aws_key_pair" "daniel" {
-  key_name   = "daniel"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQClsbR1WYsqJ0hiyDumK5qVqwHX7Ayps+owgqA4giO2gb/xblVsOa85dfEBmG075yK0g3skvxLRxJgPsRVAa2S0IN74COxdjUN/8GW1G+OI+Au4mdb5s713R+V5Qthkw8Eb5+iQvv25JihJ2zWm6NMa1DReSKjlc8aydx74AbhOiVcRGrLgJKAAO046Vbr8m8NDrJgGxVw2Ev/clvQMny3n+2mY9fHtBxpWtiQlCci69+5krD2YQ13GL4nn6sPrmFZlIvfpL8dp7dfPp+Ao6dUUW2Jx5+YN6H0gvB9y2HoeRqtLa+Ut9msA6o8KGn9uqs8C75hcWAlxfOyYsfjg0Xc3 Samson@TEEJAY"
-}
+
